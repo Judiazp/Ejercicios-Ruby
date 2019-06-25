@@ -1,0 +1,2 @@
+# Ejercicios-Ruby
+Practicas ruby
