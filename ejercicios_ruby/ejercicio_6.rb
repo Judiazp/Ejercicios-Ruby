@@ -1,12 +1,15 @@
 #Escriba el código Ruby que calcule la suma de los 50 primeros números naturales.
 
 
-contador = 1
+contador = 0
 
 
-for i in(0..49)
+for i in(0..50)
 
-  puts "#{i} + #{contador} = #{contador}"
+
+  puts "#{i} + #{contador}= #{i + contador}"
+
+
 
   contador = contador + 1
 
