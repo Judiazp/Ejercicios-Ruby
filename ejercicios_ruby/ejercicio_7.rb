@@ -4,8 +4,8 @@ puts 'Ingrese un numero entero: '
  e = gets.to_i
 if (e. even?)
   puts 'par'
-  puts e. even?
-  else
+  puts e.even?
+else
   puts 'Impar'
-  puts e. odd?
+  puts e.odd?
 end
