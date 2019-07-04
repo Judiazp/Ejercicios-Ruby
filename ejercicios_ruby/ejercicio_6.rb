@@ -3,13 +3,9 @@
 
 contador = 0
 
-
 for i in(0..50)
 
-
   puts "#{i} + #{contador}= #{i + contador}"
-
-
 
   contador = contador + 1
 
