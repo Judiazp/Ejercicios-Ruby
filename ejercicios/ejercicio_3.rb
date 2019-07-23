@@ -13,3 +13,4 @@ h = gets.to_i
 a = b * h / 2
 
 puts "El area del triangulo es: #{a}"
+

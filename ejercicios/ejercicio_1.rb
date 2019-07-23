@@ -1,6 +1,7 @@
 #Escriba el pseudocódigo y el código Ruby que, dado un número, deduzca si está entre
 #10 y 100,ambos inclusive, y devuelva el valor lógico según el caso.
 
+
 a = 10
 b = 100
 
