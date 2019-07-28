@@ -1,12 +1,18 @@
 #21Escriba el código Ruby para verificar si un número es palíndromo.
 
+puts 'Ingrese un numero: '
+  n = gets.to_i
 
-puts 'ingrese un numero de tres digitos: '
-  n = gets.chomp
+inverso = 0
+aux = n
+while aux != 0
+    residuo = aux % 10
+    aux /= 10
+    inverso = inverso * 10 + residuo
+end
 
-  if n[0] == n[-1]
-    puts 'Es palindromo'
+if n == inverso
+  puts 'Es palindromo'
   else
     puts 'No es palindromo'
-  end
-
+end
