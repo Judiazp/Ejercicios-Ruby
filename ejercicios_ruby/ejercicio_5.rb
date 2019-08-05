@@ -1,11 +1,11 @@
 #Escriba el pseudocódigo y el código Ruby para calcular el área de un círculo, dado su diámetro
 
-a = a
-PI = 3.14
+area = 0
+pi = 3.14
 
 puts 'Ingrese el valor del diametro del circulo: '
-d = gets.to_i
+diametro = gets.to_i
 
-a = (PI / 4) * d**2
+area = (pi / 4) * diametro**2
 
-puts "El area del circulo es: #{a}"
+puts "El area del circulo es: #{area}"
