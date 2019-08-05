@@ -16,6 +16,5 @@ for j in 0..arreglo[i]-1
 
   end
 
-end
 
 puts arreglo
