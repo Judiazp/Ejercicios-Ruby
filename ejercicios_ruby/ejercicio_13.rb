@@ -3,10 +3,10 @@
 contador = 0
 
 puts 'Ingrese un numero: '
-n = gets.to_i
-for i in 2..n
+numero = gets.to_i
+for i in 2..numero
   contador = contador + 1
-  n = n * contador
+  numero *= contador
 end
-puts n
+puts numero
 

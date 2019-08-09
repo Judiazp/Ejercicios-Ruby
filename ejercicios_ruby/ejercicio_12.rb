@@ -3,9 +3,9 @@
 contador = 1
 
 puts 'Ingrese un digito: '
-n = gets.to_i
+numero = gets.to_i
 
-for i in 1..n
+for i in 1..numero
   puts "#{i} + #{contador} = #{i + contador}"
   contador = contador + 1
 end

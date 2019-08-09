@@ -8,16 +8,10 @@ puts 'Ingrese un número: '
 
 v = gets.to_i
 
-# if v < 10 || v > 100
-# 	puts "#{v} No esta entre 10 y 100"
-# 	puts 'falso'
-# else
-# 	puts "#{v} Si esta entre 10 y 100"
-# 	puts 'Verdadero'
-# end
-
-# cadena = "je" * 10
-
-# puts cadena
-
-puts v > 5
+if v > 10 && v < 100
+  puts "#{v} Si esta entre 10 y 100"
+  puts v > 10 && v < 100
+else
+  puts "#{v} No esta entre 10 y 100"
+ 	puts v > 10 && v < 100
+end

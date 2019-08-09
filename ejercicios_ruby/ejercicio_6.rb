@@ -2,8 +2,11 @@
 
 
 contador = 0
-
-for i in(0..50)
-  puts "#{i} + #{contador}= #{i + contador}"
+resultado = 0
+for i in 0..50
   contador = contador + 1
+  i + contador = resultado
+  resultado += i
 end
+
+puts resultado

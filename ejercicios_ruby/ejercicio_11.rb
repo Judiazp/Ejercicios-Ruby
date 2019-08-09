@@ -2,7 +2,12 @@
 
 puts 'Ingrese un numero comprendido entre 7 y 17: '
 n = gets.to_i
-if (n % 2 != 0)
+
+if n < 7
+  puts 'Este numero esta fuera del rango solicitado'
+elsif n > 17
+  puts 'Este numero esta fuera del rango solicitado'
+elsif n % 2 != 0
   puts 'Es impar'
 else
   puts 'Es par'
